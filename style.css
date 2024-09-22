@@ -49,7 +49,7 @@ header{
     transform: scale(1.1);
 }
 
-nav {
+nav a{
     font-size: 1.8rem;
     color: white;
     margin-left: 4rem;
@@ -58,14 +58,14 @@ nav {
     border-bottom: 3px solid transparent;
 }
 
-nav :hover,
-nav .active{
+nav a:hover,
+nav a.active{
     color: #b74b4b;
     border-bottom: 3px solid #b74b4b;
 }
 
 @media(max-width:995px){
-    nav{
+    nav a{
         position: absolute;
         display: none;
         top: 0;
@@ -79,7 +79,7 @@ nav .active{
         border-top: 0.1rem solid rgba(0,0,0,0.1);
     }
 
-    nav.active{
+    nav a.active{
         display: block;
     }
 
